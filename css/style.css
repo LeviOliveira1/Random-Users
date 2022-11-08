@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+body {
+  background-image: url("/img/markus-spiske-iar-afB0QQw-unsplash.jpg");
+}
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  text-align: center;
+  margin-top: 20rem;
+  width: 25%;
+  height: 300px;
+  background: #000000;
+  background: -webkit-linear-gradient(
+    to right,
+    #070707,
+    #000000
+  ); 
+  background: linear-gradient(
+    to right,
+    #080808,
+    #00000013
+  ); 
+  border-radius: 20px;
+  box-shadow: rgb(7, 211, 7) 0px 22px 70px 4px;
+}
+.container p{
+  color: rgb(147, 187, 37);
+  font-weight: 700;
+  font-family:'Saira Condensed', sans-serif;
+  
+}
+img{
+  margin-top: 0.5rem;
+  border-radius: 2rem;
+  box-shadow: rgba(22, 21, 21, 0.911) 0px 5px 20px ;
+}
+h3{
+  color: #fff;
+  font-size: 15px;
+}
+
+.btn{
+  font-family: fantasy;
+  letter-spacing: 1px;
+  width: 100px;
+  height: 20px;
+  border-radius: 0.3rem;
+  background-color: #f3f3f3;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.btn:hover{
+  color: rgb(255, 255, 255);
+  background-color: #000;
+  box-shadow: rgb(51, 255, 0) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
